@@ -1,5 +1,14 @@
 # POLYBRUTUS 22D — Exact 27-point Euclidean metric and a sixteenfold ideal graph mode
 
+## Official publicly verified scientific release
+
+- **Zenodo DOI:** [10.5281/zenodo.24409636](https://doi.org/10.5281/zenodo.24409636), [public record 24409636](https://zenodo.org/records/24409636), verified through the public Zenodo API.
+- **Frozen scientific source:** [`v0.1.0`](https://github.com/Topbrutus/polybrutus-d22/tree/v0.1.0), source commit `4d4e80a7156a118f8f2bebf63aca76ac5f0f06eb`.
+- **Exact independent CI:** [GitHub Actions D22 run 44851196428](https://github.com/Topbrutus/polybrutus-d22/actions/runs/44851196428), conclusion `success` on the immutable scientific source; both checkers PASS.
+- **Three Zenodo attachments:** immutable tagged Git source ZIP, mathematical PDF note, 351-pair exact labelled JSON distance certificate; remote checksums verified.
+- **Scientific limits:** exact 22D affine Euclidean metric and chosen ideal weighted graph model. No observed physical extra dimension, measured resonance or original universal theorem claimed.
+
+
 **Human research author and responsibility:** Gabriel St-Pierre, independent researcher.  
 **Scientific status:** exact reproducible mathematical case study, not independently human peer reviewed.  
 **AI use:** OpenAI ChatGPT (Astra) substantially assisted exact symbolic mathematics, two separately coded verification programs, selected theoretical graph model, scientific writing, documentation and controlled release. AI is not an author.
