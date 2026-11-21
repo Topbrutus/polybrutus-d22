@@ -1,0 +1,22 @@
+name: Verify Polybrutus D22 exact certificate
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install exact symbolic math
+        run: python -m pip install sympy==1.14.0
+      - name: Certify D22 Euclidean geometry, Gram and chosen ideal graph
+        run: python src/verify_d22.py
+      - name: Independently verify 351 rational labelled pair distances and spectral roots
+        run: python tests/independent_d22.py
