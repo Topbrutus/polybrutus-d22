@@ -3,7 +3,7 @@
   "dimension": 22,
   "repository": "Topbrutus/polybrutus-d22",
   "branch": "main",
-  "state": "CANDIDATE_VERIFIED_LOCAL_NOT_PUBLISHED",
+  "state": "DONE",
   "vertices": 27,
   "pairs": 351,
   "affine_rank": 22,
@@ -12,15 +12,52 @@
   "parent_doi": "10.5281/zenodo.24409527",
   "parent_github_tag": "Topbrutus/polybrutus-d21@v0.1.0",
   "parent_tag_commit": "f17e4d02f7442d18cdafbcbb0b62380c557e4ef2",
-  "github_commit": null,
-  "github_release_tag": null,
-  "zenodo_record_id": null,
-  "zenodo_doi": null,
+  "github_commit": "4d4e80a7156a118f8f2bebf63aca76ac5f0f06eb",
+  "github_release_tag": "v0.1.0",
+  "zenodo_record_id": 24409636,
+  "zenodo_doi": "10.5281/zenodo.24409636",
   "scientific_delta": "Exact 27-vertex affine rank-22 labelled metric preserving all 325 old squared distances; chosen ideal graph eigenvalue 27/2 multiplicity 16.",
   "novel_universal_theorem": "NOT CLAIMED",
   "physical_claim": "NONE",
   "human_peer_review": "NOT_DONE",
   "AI_disclosure": "OpenAI ChatGPT (Astra) substantially assisted exact symbolic mathematics, separately coded rational verifier, research prose and release; not author.",
-  "verification": "Primary and independently implemented rational programs PASS locally; GitHub CI pending",
-  "next_action": "Create private GitHub D22, run successful two-checker CI, freeze source tag v0.1.0, stage and verify one Zenodo draft, publish only after integrity gates."
+  "verification": {
+    "coordinate_affine_rank": "PASS",
+    "centered_gram_rank": "PASS",
+    "exact_gram_psd_factorization": "PASS",
+    "prior_labelled_pairs": "325/325 PASS",
+    "new_pair_distances": "26/26 PASS",
+    "independent_rational_metric": "351/351 PASS",
+    "negative_controls": "4/4 PASS",
+    "chosen_graph_eigenvalues": "27/2 x16; 13 x4 PASS",
+    "github_actions": "PASS",
+    "zenodo_public_files": "3/3 PASS"
+  },
+  "next_action": "Only on NEXT user go start D23 from frozen Polybrutus D22 v0.1.0. Target 28 points, 378 labelled squared distances, conserve 351 parent pairs, add 27 new distances squared 2R², affine rank 23. Do not start D23 before new go.",
+  "github_public_verified": true,
+  "github_actions": {
+    "run_id": 44851196428,
+    "conclusion": "success",
+    "head_sha": "4d4e80a7156a118f8f2bebf63aca76ac5f0f06eb"
+  },
+  "github_main_note": "Post-release DOI references and Git source hash index advance main but do not change frozen scientific tag v0.1.0.",
+  "zenodo_public_verified": true,
+  "zenodo_files": [
+    {
+      "name": "POLYBRUTUS_D22_SOURCE_v0.1.0_GITHUB_TAG.zip",
+      "size": 201989,
+      "sha256": "2e7cd1e5e45981a66188f2e4630242943ecc05765970a5defe79cb7eeaca0ace"
+    },
+    {
+      "name": "POLYBRUTUS_22D_NOTE.pdf",
+      "size": 156237,
+      "sha256": "2a7fd46a0834db9ea1d60abd1b3458fc3534cb7980779b8165398bd20416cfe0"
+    },
+    {
+      "name": "certificate_d22.json",
+      "size": 28123,
+      "sha256": "2bab2b6e3b58c97311e800dbe8d62d5bd98b9b606c8d2d664a756b8991b9e94b"
+    }
+  ],
+  "publication_approval": "Topbrutus explicitly established each go as authorization for one new dimension plus its GitHub and Zenodo publication; 'oui go' received for D22."
 }
